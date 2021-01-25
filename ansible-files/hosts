@@ -1,0 +1,18 @@
+# cloud-automation-lab host file
+
+[workers]
+k-worker-1
+k-worker-2
+
+[masters]
+k-master-1
+
+[controller]
+controller-1
+
+[local]
+control ansible_connection=local
+
+[all:vars]
+#ansible_connection=ssh
+#ansible_user=codin
