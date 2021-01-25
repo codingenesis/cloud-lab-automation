@@ -13,6 +13,3 @@ controller-1
 [local]
 control ansible_connection=local
 
-[all:vars]
-#ansible_connection=ssh
-#ansible_user=codin
